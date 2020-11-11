@@ -1,0 +1,54 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: laugh when user laughs
+  steps:
+  - intent: laugh
+  - action: utter_laugh
+
+- rule: tell user a joke
+  steps:
+  - intent: joke
+  - action: utter_joke
+
+- rule: tell user his name
+  steps: 
+  - intent: userName
+  - action: utter_username
+
+
+- rule: tell user what the time is
+  steps: 
+  - intent: currentTime
+  - action: utter_time
+
+- rule: tell user where you live
+  steps: 
+  - intent: residence
+  - action: utter_residence
+
+- rule: tell user your name
+  steps: 
+  - intent: botName
+  - action: utter_iamabot
+
+
+- rule: ask user to be friends
+  steps: 
+  - intent: friendship
+  - action: utter_friendship
+
+
+
+  

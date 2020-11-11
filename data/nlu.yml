@@ -1,0 +1,152 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - what is your name?
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - how are you?
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: residence
+  examples: |
+    - where do you live?
+    - where are you from?
+    - where do you come from?
+    - where do are you from?
+    - where do you live mate?
+- intent: friendship
+  examples: |
+    - will you be my friend?
+    - do you have any friends?
+    - how many friends do you have?
+    - i dont have any friends
+    - i am lonely
+    - i am soo lonely
+
+- intent: botName
+  examples: |
+    - what is your name?
+    - what is ur name?
+    - who are you?
+    - what can i call you?
+    - do you have a name?
+    - what are you called?
+    - and you are?
+
+- intent: currentTime
+  examples: |
+    - what time is it in Mumbai?[]{"entity": "location", "value": "Mumbai"}
+    - what time is it in New York?[]{"entity": "location", "value": "New York"}
+    - what time is it in London?[]{"entity": "location", "value": "London"}
+    - time in USA?[]{"entity": "location", "value": "USA"}
+    - time in Japan?[]{"entity": "location", "value": "Japan"}
+    
+- intent: userName
+  examples: |
+    - what is my name?
+    - do you know my name?
+    - tell me my name?
+    - say my name?
+    - my name
+
+- intent: joke
+  examples: |
+    - tell me a joke
+    - do you know any jokes?
+    - joke please
+    - joke joke
+    - make me laugh
+    - i wanna laugh
+
+- intent: laugh
+  examples: |
+    - lol
+    - hahaha
+    - lmao
+    - hillerious
+    - thats funny
+    - that is so funny
+    - that is funny
+    - that is hillerious
+
+  
