@@ -9,9 +9,9 @@ AI assistant powered by Rasa<br>
 
 ##### Run on a Web Browser
 * Clone the repo
-* In terminal navigate inside ```summerproject``` folder and run command ```python manage.py runserver```, this is start a Django server on your machine.
-* After that, navigate to ```rasa``` folder and run command, ```rasa run -m models --enable-api --cors "*" --debug```, this is start a rasa server.
-* Final step, again navigate to ```rasa``` folder and run command, ```rasa run actions```, this is start a rasa custom actions server.
+* In terminal navigate inside ```summerproject``` folder and run command ```python manage.py runserver```, this will start a Django server on your machine.
+* After that, navigate to ```rasa``` folder and run command, ```rasa run -m models --enable-api --cors "*" --debug```, this will start a rasa server.
+* Final step, again navigate to ```rasa``` folder and run command, ```rasa run actions```, this will start a rasa custom actions server.
 <details>
   <summary><b>IMPORTANT NOTE</b></summary>
   <p>make sure you train the model after cloning the repo or after making any changes to the code.</p>
