@@ -1,0 +1,221 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - sup
+    - whats up?
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - what is your name?
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - how are you?
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: residence
+  examples: |
+    - where do you live?
+    - where are you from?
+    - where do you come from?
+    - where do are you from?
+    - where do you live mate?
+- intent: friendship
+  examples: |
+    - will you be my friend?
+    - do you have any friends?
+    - how many friends do you have?
+    - i dont have any friends
+    - i am lonely
+    - i am soo lonely
+- intent: botName
+  examples: |
+    - what is your name?
+    - what is ur name?
+    - who are you?
+    - what can i call you?
+    - do you have a name?
+    - what are you called?
+    - and you are?
+- intent: currentTime
+  examples: |
+    - what time is it in [Mumbai](location)?
+    - what time is it in [New York](location)?
+    - what time is it in [London](location)?
+    - what time is it in [United States](location)?
+    - what time is it in [Gujrat](location)?
+    - what time is it in [Poland](location)?
+    - what time is it in [Indonesia](location)?
+    - what time is it in [Bali](location)?
+    - what time is it in [Rajasthan](location)?
+    - what time is it in [Chembur](location)?
+    - what time is it in [Karjat](location)?
+    - time in [USA](location)
+    - time in [Japan](location)
+    - time in [Delhi](location)
+    - time in [New Jersy](location)
+    - time in [Tokyo](location)
+    - time in [South Africa](location)
+    - time in [China](location)
+    - time in [Kolkata](location)
+    - time in [Madrid](location)
+    - time in [France](location)
+    - time in [Paris](location)
+    - time in [California](location)
+    - time in [India](location)
+    - time in [San Francisco](location)
+    - time in [New Jersy](location)
+    - time in [Spain](location)
+    - [Delhi](location) time?
+    
+- intent: userName
+  examples: |
+    - what is my name?
+    - do you know my name?
+    - tell me my name?
+    - say my name?
+    - my name
+
+- intent: joke
+  examples: |
+    - tell me a joke
+    - tell me a [Chuck Norris](chucknorris_joke_entity) joke
+    - do you know any jokes?
+    - joke please
+    - [Chuck Norris](chucknorris_joke_entity) joke please
+    - joke joke
+    - make me laugh
+    - i wanna laugh
+
+  
+- intent: laugh
+  examples: |
+    - lol
+    - hahaha
+    - lmao
+    - hillerious
+    - thats funny
+    - that is so funny
+    - that is funny
+    - that is hillerious
+- intent: how_are_you
+  examples: |
+    - How are you?
+    - How are you doing?
+    - how you doing?
+    - how do you do?
+    - how do you feel?
+
+- intent: search
+  examples: |
+    - search for [dogs](search_entity)
+    - search for [pigs](search_entity)
+    - search for [game of thrones](search_entity)
+    - search [cats](search_entity)
+    - search [fishes](search_entity)
+    - search [titanic](search_entity)
+    - search [movies](search_entity)
+
+- intent: wiki_search
+  examples: |
+    - tell me something about [dogs](wiki_entity)
+    - tell me something about [cats](wiki_entity)
+    - tell me something about [boats](wiki_entity)
+    - tell me something about [buildings](wiki_entity)
+    - tell me something about [Batman](wiki_entity)
+    - tell me something about [dance](wiki_entity)
+    - tell me something about [rabbit](wiki_entity)
+    - tell me something about [beer](wiki_entity)
+    - tell me something about [superman](wiki_entity)
+    - tell me something about [video games](wiki_entity)
+    - tell me something about [joggers](wiki_entity)
+    - tell me something about [pajamas](wiki_entity)
+    - information about [microchips](wiki_entity)
+    - information about [computer memory](wiki_entity)
+    - information about [bananas](wiki_entity)
+    - information about [trees](wiki_entity)
+    - information about [dinosours](wiki_entity)
+    - details about [cats](wiki_entity)
+    - what is a [fish](wiki_entity)
+    - what is a [dog](wiki_entity)
+    - what are [stars](wiki_entity)
+    - what is a [cloud](wiki_entity)
+    - what is a [computer](wiki_entity)
+    - what is a [machine](wiki_entity)
+    - what is a [glass](wiki_entity)
+    - what was [titanic](wiki_entity)
+
