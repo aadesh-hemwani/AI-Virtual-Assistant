@@ -1,14 +1,16 @@
+
 # AI-Virtual-Assistant
-## This was our summer project and also participated in Avishkar organized by Mumbai University.
 <br />
-AI assistant powered by Rasa<br>
-<img src="https://d33wubrfki0l68.cloudfront.net/37c130df420c6a673ad6c2e494c0224606ace77b/e6afa/static/60e441f8eadef13bea0cc790c8cf188b/rasa-logo.svg" height=100px/>
+<img src="https://user-images.githubusercontent.com/61701507/131873230-500d0256-84fc-43f9-b549-e7cee271c7bd.gif" height=150px/>
+
+# Screenshots
+<img src="https://user-images.githubusercontent.com/61701507/131874150-5659df11-1065-4804-9a72-b62befad3817.png" width="auto" height="500px"/><img src="https://user-images.githubusercontent.com/61701507/131874107-c78596f8-8882-4f56-ae78-410b88de13cc.png" width="auto" height="500px"/>
 
 # Video
 https://user-images.githubusercontent.com/61701507/126491275-87d01c23-8bbc-4536-8ed6-624be81e7593.mp4
 
 # Documentation
-https://drive.google.com/file/d/1G5XNcaKxHqkvdYn8CSnX8fL7LN89tPv5/view?usp=sharing
+https://drive.google.com/file/d/1PRyTUS8gBChBIjv76uz6q_P3XEMmlqeL/view?usp=sharing
 
 # Research Paper
 https://drive.google.com/file/d/1KOYmCOL-6ntTsxmOx_LbkV8jLW8iQL02/view?usp=sharing
