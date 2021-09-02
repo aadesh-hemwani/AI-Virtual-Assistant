@@ -1,0 +1,10 @@
+[
+  {
+    "text": "how are you?",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "how_are_you",
+      "confidence": 0.616015613079071
+    }
+  }
+]

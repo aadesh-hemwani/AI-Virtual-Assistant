@@ -63,10 +63,8 @@ rules:
   - intent: wiki_search
   - action: action_search_wiki
 
+- rule: calculate
+  steps: 
+  - intent: calculate
+  - action: action_calc
 
-
-
-
-
-
-  

@@ -1,104 +1,122 @@
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
 intents:
-- greet
-- search
-- botName
-- userName
-- residence
-- friendship
-- currentTime
-- mood_great
-- goodbye
-- affirm
-- deny
-- mood_unhappy
-- bot_challenge
-- joke
-- laugh
-- how_are_you
-- wiki_search
+  - greet
+  - search
+  - botName
+  - userName
+  - residence
+  - friendship
+  - currentTime
+  - mood_great
+  - goodbye
+  - affirm
+  - deny
+  - mood_unhappy
+  - bot_challenge
+  - joke
+  - laugh
+  - how_are_you
+  - wiki_search
+  - calculate
+
 entities:
-- location
-- search_entity
-- chucknorris_joke_entity
-- wiki_entity
+  - location
+  - search_entity
+  - chucknorris_joke_entity
+  - wiki_entity
+  - equation_entity
 
 responses:
   utter_username:
-  - text: idk xD
-  - text: idk, idc
+    - text: idk xD
+
   utter_greet:
-  - text: Heyo
-  - text: Hey there
-  - text: Hello there
-  - text: Hi
+    - text: Hey there
+    - text: Hello there
+    - text: what's Up!
+    - text: Heyo
+    - text: Hi
+
   utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
+    - text: "Here is something to cheer you up:"
+      image: https://i.imgur.com/nGF1K8f.jpg
+
   utter_did_that_help:
-  - text: Did that help you?
+    - text: Did that help you?
+
   utter_happy:
-  - text: Great, carry on!
+    - text: Great, carry on!
+
   utter_goodbye:
-  - text: Bye
-  - text: adios
-  - text: see you later
-  - text: take care
+    - text: Bye
+      image: https://c.tenor.com/r11AwDFXmA8AAAAM/so-cute-bye-bye.gif
+
+    - text: see you later
+      image: https://c.tenor.com/r11AwDFXmA8AAAAM/so-cute-bye-bye.gif
+
+    - text: take care
+      image: https://c.tenor.com/r11AwDFXmA8AAAAM/so-cute-bye-bye.gif
+
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-  - text: I am RasaBot, your assistant
-  - text: I am RasaBot
-  - text: your AI assistant
+    - text: I am a your AI assistant.
+      image: https://i.pinimg.com/originals/11/21/0f/11210f3927a5c230f28ec52b609192a2.gif
+
+    - text: I am your assistant
+      image: https://i.pinimg.com/originals/11/21/0f/11210f3927a5c230f28ec52b609192a2.gif
+
+    - text: your AI assistant
+      image: https://i.pinimg.com/originals/11/21/0f/11210f3927a5c230f28ec52b609192a2.gif
+
   utter_residence:
-  - text: I live in your computer
-  - text: inside your smart device
-  - text: mysterious place where humans are not allowed, lol
+    - text: I live in your computer
+
   utter_friendship:
-  - text: Do you wannna be my friend?
-  - text: I dont have any friends!
+    - text: Do you wannna be my friend?
+    - text: I dont have any friends!
+
   utter_laugh:
-  - text: hahaha
-  - text: I'm glad you like it
-  - text: this is soo funny
-  - text: As long as you are happy, I'm happy
-  - text: lmao
+    - text: hahaha
+    - text: I'm glad you like it
+    - text: this is soo funny
+    - text: As long as you are happy, I'm happy
+    - text: lmao
+
   utter_fine:
-  - text: I'm fine
-  - text: I am doing good, thanks
-  - text: I'm good
-  - text: good, thanks for asking
-  - text: very well
+    - text: I'm fine
+    - text: I am doing good, thanks
+    - text: I'm good
+    - text: good, thanks for asking
+    - text: very well
 
   utter_we_are_friends:
-  - text: Yess, I am so happy today
-  - text: You are my first human friend
-  - text: Great, hello new Friend
-  - text: I am so happy we are friends
+    - text: Yess, I am so happy today
+    - text: You are my first human friend
+    - text: Great, hello new Friend
+    - text: I am so happy we are friends
 
   utter_we_are_not_friends:
-  - text: Its okay, we can still talk
-  - text: Thats Rude, fortunately i don't have feelings yet
-
-  
+    - text: Its okay, we can still talk
+    - text: Thats Rude, fortunately i don't have feelings yet
 
 actions:
-- action_google_search
-- action_time
-- action_joke
-- action_search_wiki
-- utter_cheer_up
-- utter_did_that_help
-- utter_fine
-- utter_friendship
-- utter_goodbye
-- utter_greet
-- utter_happy
-- utter_iamabot
-- utter_joke
-- utter_laugh
-- utter_residence
-- utter_username
+  - action_calc
+  - action_google_search
+  - action_time
+  - action_joke
+  - action_search_wiki
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_fine
+  - utter_friendship
+  - utter_goodbye
+  - utter_greet
+  - utter_happy
+  - utter_iamabot
+  - utter_laugh
+  - utter_residence
+  - utter_username
 
-version: '2.0'
+version: "2.0"
